@@ -1,0 +1,90 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+body {
+min-height: 100vh;
+background: linear-gradient(135deg, #667eea, #764ba2);
+display: flex;
+
+justify-content: center;
+align-items: center;
+}
+
+.container {
+width: 900px;
+}
+
+.profile-card {
+background: white;
+text-align: center;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.profile-card img {
+width: 120px;
+border-radius: 50%;
+border: 5px solid #764ba2;
+}
+
+.profile-card h1 {
+margin-top: 15px;
+color: #333;
+}
+
+.tag {
+color: #764ba2;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+button {
+padding: 12px 25px;
+border: none;
+border-radius: 30px;
+background: linear-gradient(45deg, #667eea, #764ba2);
+color: white;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+transform: scale(1.1);
+}
+
+.biodata {
+
+display: none;
+margin-top: 25px;
+background: rgba(255,255,255,0.95);
+padding: 30px;
+border-radius: 20px;
+}
+
+h2 {
+color: #764ba2;
+margin: 20px 0 10px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+td {
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+.skills span {
+display: inline-block;
+background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+padding: 8px 15px;
+margin: 5px;
+border-radius: 20px;
+font-weight: bold;
+}
